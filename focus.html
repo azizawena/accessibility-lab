@@ -1,0 +1,11 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Focus Lab</title>
+<style>
+:root{color-scheme:dark;--bg:#15171a;--panel:#1b1e23;--text:#f4f1f3;--muted:#b8b3b6;--accent:#8b5a75}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,sans-serif}
+main{max-width:760px;margin:auto;padding:48px 24px}a,button,input,textarea{font:inherit}
+a,button{color:var(--text)}:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.card{padding:20px;border:1px solid #444;background:var(--panel);margin:20px 0}
+label{display:block;margin:16px 0 6px}input,textarea{width:100%;padding:12px;background:#111318;color:var(--text);border:1px solid #555}
+.error{color:#ffd1dc}nav a{margin-right:18px}
+</style>
+<main><h1>Focus visible</h1><p>Use Tab e Shift+Tab.</p><nav><a href="#a">Link A</a><a href="#b">Link B</a><button type="button">Ação</button></nav><section class="card" id="a"><h2>Ordem lógica</h2><p>O foco acompanha a ordem do documento.</p></section><section class="card" id="b"><h2>Indicador</h2><p>O foco permanece visível sem depender de hover.</p></section></main></html>
